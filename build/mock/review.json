@@ -1,0 +1,23 @@
+[
+    {
+        "image":"../mock/source/wanju.jpeg",
+        "vudio":"../mock/source/wanju.mp4",
+        "alt":"这是玩具总动员的图片",
+        "album":"八周交易计划2《我的信仰》",
+        "time":"2017-01-20"
+    },
+    {
+        "image":"../mock/source/jinji.jpeg",
+        "vudio":"../mock/source/jinji.mp4",
+        "alt":"这是紧急支援的图片",
+        "album":"第八集:巅峰之战！谁是黑马?",
+        "time":"2017-01-20"
+    },
+    {
+        "image":"../mock/source/jiuyuan.jpeg",
+        "vudio":"../mock/source/saodu.mp4",
+        "alt":"这是紧急救援的图片",
+        "album":"巨债承压动真格，赚钱才是真本事！",
+        "time":"2017-01-20"
+    }
+]

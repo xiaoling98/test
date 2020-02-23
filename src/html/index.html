@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-logo">
+            <img src="../images/logo-要改暂用.png" alt="logo">
+            <span>交易曦游记</span>
+        </div>
+        <div class="gruop">
+            <img src="../images/头像.png" alt="这是登录的头像">
+            <span>欢迎,木板</span>
+        </div>
+    </div>
+    <main>
+        <!-- 左侧自适应内容 -->
+        <div class="main-left">
+            <div class="banner">
+                <div class="tree"><img src="../images/建筑.png" alt=""></div>
+                <div class="smoke"><img src="../images/火箭烟雾.png" alt=""></div>
+                <div class="desert"><img src="../images/沙漠人.png" alt=""></div>
+                <div class="money"><img src="../images/钱.png" alt=""></div>
+                <div class="rocket"><img src="../images/火箭.png" alt=""></div>
+                <div class="people"><img src="../images/小智.png" alt=""></div>
+                <div class="title">
+                    <img src="../images/标题.png" alt="">
+                </div>
+            </div>
+            <div class="content-root">
+            <p class="video-title">交易曦游记：记录真实交易员纪录片</p>
+            <div class="box">
+                <ul class="share">
+                    <li class="iconfont icon-fenxiang"></li>
+                    <li>分享</li>
+                    <li class="iconfont icon-weixin"></li>
+                    <li class="iconfont icon-weibo"></li>
+                    <li class="iconfont icon-qq"></li>
+                    <li class="iconfont icon-QQkongjian"></li>
+                </ul>
+                <video class="video"></video>
+                <span class="play"></span>
+                <div class="contro1">
+                    <a class="zanting iconfont icon-play" ></a>
+                    <span id="starTime"></span>
+                    <div class="progress">
+                        <div class="current"></div>
+                    </div>
+                    <span id="curTime"></span>
+                    <a class="full iconfont icon-full" onclick="full()" ></a>
+                </div>
+            </div>
+            <div class="middle">
+                <ul class="introduce">
+                    <li class="introduce-info">
+                        <div class="introduce-photo"><img src="../images/头像.png" alt=""></div>
+                        <span class="introduce-name">林则徐</span>
+                    </li>
+                    <li class="introduce-info">
+                        <div class="introduce-photo"><img src="../images/头像.png" alt=""></div>
+                        <span class="introduce-name">徐悲鸿</span class="introduce-name">
+                    </li>
+                    <li class="introduce-info">
+                        <div class="introduce-photo"><img src="../images/头像.png" alt=""></div>
+                        <span class="introduce-name">小小彬</span>
+                    </li>
+                    <li class="introduce-info">
+                        <div class="introduce-photo"><img src="../images/头像.png" alt=""></div>
+                        <span class="introduce-name">小小彬</span class="introduce-name">
+                    </li>
+                </ul>
+                <p class="introduce-text">
+                    1785年，福建，清朝时期的政治家、思想家和诗人，因其主张严禁鸦片,在中国有“民族英雄”之誉
+                </p>
+                <div class="discuss">
+                    <h3>本集话题讨论</h3>
+                    <p>交易简单看来，不外乎上涨下跌，赌博不外乎输赢。交易员是赌徒吗？</p>
+                    <div class="vote">
+                        <ul>
+                            <li>
+                                <div></div>
+                                <p>投票</p>
+                                <span>已投1209票</span>
+                            </li>
+                            <li>
+                                <div></div>
+                                <p>投票</p>
+                                <span>已投1209票</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+            <div class="review-title">
+                <div class="title-left">
+                    <ul>
+                        <li class="one"><img src="../images/小标题装饰火箭.png" alt=""></li>
+                        <li class="two">往期回顾</li>
+                        <li class="three"><img src="../images/小标题右边.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="title-right">查看更多</div>
+                </div>
+                <div class="content">
+                    <!-- <div class="data">
+                        <div><img src="../images/wanju.jpeg" alt="这是图片"></div>
+                        <p>八周交易计划2《我的信仰》</p>
+                        <p>2017-01-20</p>
+                    </div>
+                    <div class="data">
+                        <div><img src="../images/jinji.jpeg" alt=""></div>
+                        <p>第八集:巅峰之战！谁是黑马?</p>
+                        <p>2017-01-20</p>
+                    </div>
+                    <div class="data">
+                        <div><img src="../images/jiuyuan.jpeg" alt=""></div>
+                        <p>巨债承压动真格，赚钱才是真本事！</p>
+                        <p>2017-01-20</p>
+                    </div> -->
+                </div>  
+            </div>
+            <div class="message-title">
+                <ul>
+                    <li class="one"><img src="../images/小标题装饰火箭.png" alt=""></li>
+                    <li class="two">留言板</li>
+                    <li class="three"><img src="../images/小标题右边.png" alt=""></li>
+                </ul>
+                <div class="subject">
+                    <span><img src="../images/话题.png" alt=""></span>
+                    <p>交易简单看来，不外乎上涨下跌，赌博不外乎输赢。很多人看来，这两者都是很大风险的，但实际交易的风险就不可控了吗？交易员和赌徒之间到底差别什么？作为交易员的你，又是怎样觉得呢</p>
+                </div>
+            </div>
+            <div class="message-content">
+                <div class="login">
+                    <div class="login-left">
+                        <i class="iconfont icon-pinglun"></i>
+                        <span>评论需要登录，您还没登录</span>
+                    </div>
+                    <div class="login-right">
+                        <span class="registerBtn">注册</span>
+                        <span class="loginBtn">登录</span>
+                    </div>
+                </div>
+                <p id="comment-title">最新评论(149)</p>
+                <div class="comment-root">
+                    <!-- <div class="comment">
+                        <div class="comment-left">0</div>
+                        <div class="comment-right">
+                            <div class="photo"></div>
+                            <div class="info">
+                                <span>扭转乾坤</span>
+                                <span>温州 10:06</span>
+                            </div>
+                            <p>大部分的赌徒都是赌久必输，而只有部分职业赌徒是赌久必赢的。可以说，赌久必输是生活中常见的现象</p>
+                            <div class="reply">
+                                <i class="iconfont icon-pinglun"></i>
+                                <span>回复</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-left">2</div>
+                        <div class="comment-right">
+                            <div class="photo"></div>
+                            <div class="info">
+                                <span>扭转乾坤</span>
+                                <span>广州 10:06</span>
+                            </div>
+                            <p>交易员是猎人，捕捉市场动态；交易员是心理分析师，分析别人交易心态的同时也被别人分析着</p>
+                            <div class="reply">
+                                <i class="iconfont icon-pinglun"></i>
+                                <span>回复</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- 右侧固定栏 -->
+        <div class="seat">
+            <div class="main-right">
+                <div class="introduce">
+                    <div class="introduce-photo"></div>
+                    <div class="introduce-info">
+                        <span>林则徐（1785年），福建</span>
+                        <span>清朝时期的政治家、思想家和诗人，因其主张严禁鸦片，在中国有“民族英雄”之誉</span>
+                    </div>
+                </div>
+                <div class="discuss">
+                    <p>交易简单看来，不外乎上涨下跌，赌博不外乎输赢。交易员是赌徒吗？</p>
+                </div>
+                <div class="vote">
+                    <div class="left">
+                        <div>投票</div>
+                        <span>我是选项一</span>
+                    </div>
+                    <div class="right">
+                        <div>投票</div>
+                        <span>我是选项二</span>
+                    </div>
+                </div>
+                <div class="bitmap">
+                    <img src="../images/Bitmap.png" alt="">
+                </div>
+                <div class="rectangle">线下沙龙招募活动</div>
+                <p>交易简单看来，不外乎上涨下跌，赌博不外乎输赢。交易员是赌徒吗？交易简单看来，不外乎上涨下跌，赌博不外乎输赢。交易员是赌徒吗？交易简单看来？</p>
+                <div class="details">活动详细</div>
+                <div class="about">
+                    <p id="about-title">加入我们《交易曦》大家庭吧！</p>
+                    <ul>
+                        <li></li>
+                        <li>
+                            <span>交易曦游记</span>
+                            <span>微信号:jin10_domi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/index.js"></script>
+    <script src="../js/video.js"></script>
+</body>
+</html>
